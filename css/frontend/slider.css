@@ -1,0 +1,164 @@
+/* faded slider */
+#indexSlider {
+	width:2000px;
+	height:445px;
+	float:left;
+	z-index:90;
+	position:relative;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+#indexSlider ul.slide {
+	list-style:none;
+	padding:0;
+	margin:0;
+	height:445px;
+	width:auto;
+	position:relative;
+	z-index:20;
+	display:none;
+}
+#indexSlider ul.slide li {
+    float:left;
+	height:445px;
+	width:2000px;
+	padding:0px;
+	margin:0px;
+	background:none;
+}
+#indexSlider ul.slide li img {
+	position:absolute;
+	top:0px;
+	z-index:90;
+}
+#indexSlider ul.slide li .indexSliderBox {
+	float:left;
+	width:264px;
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	top:80px;
+	z-index:10000;
+}
+#indexSlider ul.slide li .indexSliderBox .indexSliderContent {
+	float:left;
+	width:224px;
+	height:auto;
+	padding:18px 20px 15px 20px;
+	margin:0px;
+	background:#27462e;
+}
+#indexSlider ul.slide li .indexSliderBox .indexSliderContent h2 {
+	float:left;
+	width:100%;
+	padding:0px;
+	margin:0px 0px 12px 0px;
+	color:#e12828;
+	font-size:16px;
+	line-height:20px;
+	text-decoration:none;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+#indexSlider ul.slide li .indexSliderBox .indexSliderContent h2 a {
+	color:#e12828;
+	font-size:16px;
+	line-height:20px;
+	text-decoration:none;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+#indexSlider ul.slide li .indexSliderBox .indexSliderContent p {
+	float:left;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	font-size:13px;
+	line-height:16px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+}
+#indexSlider ul.slide li .indexSliderBox .viewMoreBtn {
+	float:left;
+	width:100px;
+	height:40px;
+	background:#e13b3b;
+	color:#fff;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:14px;
+	line-height:40px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+
+
+
+
+
+
+
+.paginationBox {	
+	z-index:98;
+	height:245px;
+	display:block;
+	width:10px!important;
+	text-align:center;
+	position:relative;
+	padding:0px;
+	margin:-270px 0px 0px 0px;
+}
+
+ul.pagination {
+	float:none;
+	list-style:none;
+	padding:0px!important;
+	margin:-35px auto 0px auto!important;
+	display:block;
+	width:auto;
+	height:245px;
+	width:10px;
+	text-align:center;
+}
+
+ul.pagination li {
+	float:none;
+	display: inline-table;
+	margin:0px 0px 0px 0px;
+	background:none;
+	padding:0px;
+	width:10px;
+	height:10px;
+}
+
+ul.pagination li a {
+	float:none;
+	display:block;
+	width:10px;
+	height:10px;
+	padding:0px;
+	margin:2px 0px 2px 0px;
+	background: url(../../images/frontend/indexSliderTumbs.png) no-repeat right top;
+}
+
+ul.pagination li a:hover {
+	background: url(../../images/frontend/indexSliderTumbs.png) no-repeat left top;	
+}
+ul.pagination li.current a {
+	background: url(../../images/frontend/indexSliderTumbs.png) no-repeat left top;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
